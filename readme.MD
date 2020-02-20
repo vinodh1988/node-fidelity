@@ -31,6 +31,7 @@
   npm install -g <utility_name>
   ex:
   npm install -g nodemon
+  ```
 
 ## Local Downloads
 
@@ -39,7 +40,7 @@
   1.Production Dependency
   2.Development Dependency
 
-  Production Dependency 
+ #### Production Dependency 
     
     Dependencies needed not only in the development but also
     production
@@ -49,9 +50,10 @@
     To download production dependencies
 
     run
-
+```
     npm install <libraryname>
     npm install --save <libraryname>
+```
 
 #### Development Dependency
      
@@ -64,4 +66,6 @@
 
    run 
 
+```
      npm install --save-dev <libraryname>
+```
