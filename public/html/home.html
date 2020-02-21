@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <link href="style.css" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="jumbotron">
+        <form action="form/add" method="post">
+        <table>
+            <tr>
+                <td>Sno</td>
+                <td><input type="text" name="sno"></td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td><input type="text" name="city"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center" style="padding:10px">
+                    <button type="submit" class="btn btn-success">
+                        Store person
+                    </button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <iframe src="form/report" style="border:none;width:1000px;min-height:500px"></iframe>
+    </div>
+</body>
+
+</html>

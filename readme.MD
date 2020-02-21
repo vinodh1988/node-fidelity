@@ -1,5 +1,5 @@
 
-#Node JS
+# Node JS
 
  * Node JS application/service/library is called a node js package/module
  * Node package is usually managed by an utility called NPM (Node package manager)
@@ -69,3 +69,21 @@
 ```
      npm install --save-dev <libraryname>
 ```
+
+## Express
+
+ Express is a framework which handles http requests and produces
+ http responses,
+
+ Express handles middleware logic
+
+ Express also creates and maintains HTTP Listener to listen client requests
+
+ To add express to the project
+ ```
+ npm install express
+```
+To create a listener and to handle request we need to express
+object which is created in the following way
+
+

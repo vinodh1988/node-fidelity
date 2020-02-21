@@ -1,0 +1,13 @@
+h1{
+    background-color: rgb(26, 114, 26);
+    color: rgb(216, 216, 233);
+}
+
+.table12{
+    overflow: auto;
+    width: 600px;
+}
+
+.th,.td{
+    width: 150px;
+}
