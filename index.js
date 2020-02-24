@@ -30,6 +30,11 @@ app.get("/home",function(request,response){
     response.sendFile(path.join(__dirname,"public/html/home.html"));
 });
 
+
+app.get("/citypage",function(request,response){
+    response.sendFile(path.join(__dirname,"public/html/home2.html"));
+});
+
 app.listen("4040",function(){
     console.log("Server is started @ 4040");
 })

@@ -1,13 +1,29 @@
-h1{
-    background-color: rgb(26, 114, 26);
-    color: rgb(216, 216, 233);
+h1
+{
+	background-color: yellow;
+	color:blue;
 }
 
-.table12{
-    overflow: auto;
-    width: 600px;
+.searchbox{
+	background-color: lightgreen;
+	color: green;
+	padding: 10px;
+	margin: 10px;
+	width: 90%;
 }
 
-.th,.td{
-    width: 150px;
+th,td{
+	width: 150px;
+	height:30px;
+	padding: 5px;
+}
+
+th{
+	background-color: green;
+	color: lightgreen;
+}
+
+td{
+	background-color: lightgreen;
+	color:green;
 }
